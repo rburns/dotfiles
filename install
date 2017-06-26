@@ -17,7 +17,11 @@ echo "installing into $DIRECTORY"
 echo ""
 
 ln -s $PWD/i3 $DIRECTORY/.i3
+ln -s $PWD/i3status.conf $DIRECTORY/.i3status.conf
+
 ln -s $PWD/tmux.conf $DIRECTORY/.tmux.conf
+
 ln -s $PWD/vim $DIRECTORY/.vim
 ln -s $PWD/vimrc $DIRECTORY/.vimrc
+
 ln -s $PWD/Xresources $DIRECTORY/.Xresources
