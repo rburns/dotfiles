@@ -1,0 +1,19 @@
+[user]
+	name = Rob Burns
+	email = rburns@paiges.net
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[alias]
+	lg = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	lgnc = log --pretty=format:'%h - %d %s (%cr) <%an>' --abbrev-commit --
+	pp = !sh -c 'git up && git push'
+	graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f][0-9a-f]*/\"&\"/g' ; echo '}'; }; f"
+	up = "!git remote update -p; git merge --ff-only @{u}"
+    smrb = "!for branch in `git branch -r --merged | grep -v HEAD`;do echo `git show --format='%ci %cr' $branch | head -n 1` \t$branch; done | sort -r | grep 'weeks'"
+[push]
+	default = simple
+[core]
+	pager = less -x4
