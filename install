@@ -1,0 +1,23 @@
+#!/bin/sh
+
+DIRECTORY=$1
+
+if [ ! -d "$DIRECTORY" ]; then
+    echo "invalid directory. giving up."
+    exit 1
+fi
+
+if [ ! -d "$PWD" ]; then
+    echo "where are we? giving up."
+    exit 1
+fi
+
+echo "installing from $PWD"
+echo "installing into $DIRECTORY"
+echo ""
+
+ln -s $PWD/i3 $DIRECTORY/.i3
+ln -s $PWD/tmux.conf $DIRECTORY/.tmux.conf
+ln -s $PWD/vim $DIRECTORY/.vim
+ln -s $PWD/vimrc $DIRECTORY/.vimrc
+ln -s $PWD/Xresources $DIRECTORY/.Xresources
