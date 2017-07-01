@@ -20,6 +20,8 @@ ln -s $PWD/bash_profile $DIRECTORY/.bash_profile
 ln -s $PWD/bashrc $DIRECTORY/.bashrc
 ln -s $PWD/bashrc.d $DIRECTORY/.bashrc.d
 
+ln -s $PWD/gitconfig $DIRECTORY/.gitconfig
+
 ln -s $PWD/i3 $DIRECTORY/.i3
 ln -s $PWD/i3status.conf $DIRECTORY/.i3status.conf
 
