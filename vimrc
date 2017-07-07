@@ -88,11 +88,14 @@ vmap <C-c><C-c> <Plug>SendSelectionToTmux
 nmap <C-c><C-c> <Plug>NormalModeSendToTmux
 nmap <C-c>r <Plug>SetTmuxVars
 
-"" commentary
+"" Commentary
 xmap \\  <Plug>Commentary<CR>
 nmap \\  <CR><Plug>Commentary
 nmap \\\ <Plug>CommentaryLine<CR>
 nmap \\u <Plug>CommentaryUndo<CR>
+
+"" jsx highlighting in .js files
+let g:jsx_ext_required = 0
 
 "" Syntastic
 " set statusline+=%#warningmsg#
