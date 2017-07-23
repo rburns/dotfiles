@@ -11,3 +11,5 @@ alias mountusb='sudo mount /dev/sda1 /media/usb'
 alias umountusb='sudo umount /media/usb'
 alias mountusb1='sudo mount /dev/sdb1 /media/usb1'
 alias umountusb1='sudo umount /media/usb1'
+
+alias darktable-generate-cache='darktable-generate-cache --max-mip=7'
