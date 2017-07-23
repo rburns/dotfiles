@@ -1,5 +1,4 @@
 "" General
-" set hidden				" lusty told me to do it
 set number				" Show line numbers
 set linebreak			" Break lines at word (requires Wrap lines)
 set textwidth=100		" Line wrap (number of cols)
@@ -44,14 +43,16 @@ map <leader>p :bp<cr>
 map <leader>d :bp<cr>
 
 "" Advanced
-set ruler				" Show row and column ruler information
+set ruler				        " Show row and column ruler information
 
-set undolevels=1000		" Number of undo levels
+set undolevels=1000		        " Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 
 "" Files
-set backupdir=~/.vim/_backup// " where to put backup files.
-set directory=~/.vim/_temp// " where to put swap files.
+set backupdir=~/.vim/_backup//          " where to put backup files.
+set directory=~/.vim/_temp//            " where to put swap files.
+set viminfo+=n~/.vim/_viminfo/viminfo   " where to put info files.
+
 
 "" Pathogen
 execute pathogen#infect()
