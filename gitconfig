@@ -17,3 +17,4 @@
 	default = simple
 [core]
 	pager = less -x4
+	excludesfile = /home/rburns/.gitignore
