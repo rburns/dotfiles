@@ -73,12 +73,13 @@
 
 URxvt.scrollBar:          false
 URxvt.intensityStyles:    false
+URxvt.font:               xft:Liberation Mono:size=10
 
-!URxvt*intensityStyles:   on
-!URxvt*letterSpace:       -1
-!URxvt*font:               xft:Liberation Mono:pixelsize=12
-!URxvt*font:               xft:Liberation Mono:style=Regular:pixelsize=12
-!URxvt*italicFont:         xft:Liberation Mono:style=Italic:pixelsize=12
-!URxvt*boldFont:           xft:Liberation Mono:style=Bold:pixelsize=12
-!URxvt*boldItalicFont:     xft:Liberation Mono:style=Bold Italic:italic:pixelsize=12
-!URxvt*imFont:             xft:Liberation Mono:style=Regular:pixelsize=12
+! URxvt*intensityStyles:   on
+! URxvt*letterSpace:       -1
+! URxvt*font:               xft:Liberation Mono:pixelsize=12
+! URxvt*font:               xft:Liberation Mono:style=Regular:pixelsize=12
+! URxvt*italicFont:         xft:Liberation Mono:style=Italic:pixelsize=12
+! URxvt*boldFont:           xft:Liberation Mono:style=Bold:pixelsize=12
+! URxvt*boldItalicFont:     xft:Liberation Mono:style=Bold Italic:italic:pixelsize=12
+! URxvt*imFont:             xft:Liberation Mono:style=Regular:pixelsize=12
