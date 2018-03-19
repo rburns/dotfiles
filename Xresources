@@ -1,3 +1,13 @@
+! dpi scaling
+
+! Xft.dpi:       110
+! Xft.autohint:  0
+! Xft.lcdfilter: lcddefault
+! Xft.hintstyle: hintfull
+! Xft.hinting:   1
+! Xft.antialias: 1
+! Xft.rgba:      rgb
+
 ! Solarized color scheme for the X Window System
 !
 ! http://ethanschoonover.com/solarized
@@ -73,7 +83,7 @@
 
 URxvt.scrollBar:          false
 URxvt.intensityStyles:    false
-URxvt.font:               xft:Liberation Mono:size=10
+URxvt.font:               xft:Inconsolata:size=10
 
 ! URxvt*intensityStyles:   on
 ! URxvt*letterSpace:       -1

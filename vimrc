@@ -22,9 +22,6 @@ let mapleader = ";"     " '/' seems terrible
 
 set laststatus=2        " always show status line
 
-"" kojiki indentation
-autocmd BufReadPre */kojiki_umbrella/* setlocal ts=2 sw=2 expandtab
-
 "" ruby indentation
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 
@@ -108,4 +105,4 @@ let g:jsx_ext_required = 0
 " let g:syntastic_check_on_open = 1
 " let g:syntastic_check_on_wq = 0
 
-" let g:syntastic_javascript_checkers = ['eslint']
+" let g:syntastic_javascript_checkers = ['standard']

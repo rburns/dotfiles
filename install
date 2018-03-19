@@ -32,3 +32,4 @@ ln -s $PWD/vim $DIRECTORY/.vim
 ln -s $PWD/vimrc $DIRECTORY/.vimrc
 
 ln -s $PWD/Xresources $DIRECTORY/.Xresources
+ln -s $PWD/xbindkeysrc $DIRECTORY/.xbindkeysrc
